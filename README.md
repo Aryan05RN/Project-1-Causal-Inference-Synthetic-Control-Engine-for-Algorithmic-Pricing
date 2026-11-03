@@ -16,6 +16,12 @@ Traditional A/B testing may not fully capture market spillovers. This project ex
 - Validate pre-treatment fit using Mean Squared Prediction Error (MSPE).
 - Develop an interactive pricing analysis dashboard.
 
+## 📌 Project Architecture
+- **Week 1:** Data Ingestion & DoWhy Causal DAG Validation
+- **Week 2:** Synthetic Control Optimization (Ridge) & DML Orthogonalization
+- **Week 3:** ATE/CATE Metrics & Sensitivity Analysis (Placebo & Noise Tests)
+- **Week 4:** Streamlit Interactive Simulation Dashboard & Executive Strategy Reports
+
 ## 3. Technologies
 
 - Python
@@ -69,3 +75,10 @@ This is a collaborative internship project. Team members should use meaningful c
 ## 8. Results
 
 Validated results, model diagnostics, and causal effect estimates will be added after the implementation and evaluation are complete.
+
+## 🚀 Quickstart
+To launch the interactive pricing dashboard locally:
+```powershell
+.\venv\Scripts\activate
+pip install streamlit plotly pandas numpy scikit-learn
+streamlit run app.py
